@@ -1,0 +1,16 @@
+{
+  "title": "Skrolli Example",
+  "name": "skrolliffaddon",
+  "version": "0.0.1",
+  "description": "Addon, which demonstrates the structure and features of addons.",
+  "main": "index.js",
+  "author": "Asser Lähdemäki",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
