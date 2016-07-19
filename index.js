@@ -9,9 +9,9 @@ var menuButton = ui.ToggleButton(
   id: "menutoggle",
   label: "Show counting menu",
   icon: {
-    "16":"./skrolli-logo.png",
-    "32":"./skrolli-logo.png",
-    "64":"./skrolli-logo.png"
+    "16":"./s-icon.png",
+    "32":"./s-icon.png",
+    "64":"./s-icon.png"
   },
   onChange: handleChange
 });
@@ -50,7 +50,7 @@ countingMenu.port.on('pagemod-enabled-changed', function(enabled){
       include: '*.skrolli.fi',
       contentScriptFile: './content_scripts/countall.js',
       onAttach: function(worker){
-	worker.port.emit('count-words', '[Ss]krolli');
+	worker.port.emit('count-words', '[S]krolli');
       }
     });
   }
